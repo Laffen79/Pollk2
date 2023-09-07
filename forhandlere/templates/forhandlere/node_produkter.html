@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  
+  <h2>{{ node.location }}</h2>
+  <p>
+    {{ node.address1 }}, {{ node.postcode }} {{ node.postcity }}
+  </p>
+  <h3>Inventar:</h3>
+  <table class="table table-bordered table-responsive-sm">
+    <thead>
+      <tr>
+        <th scope="col">Produkt</th>
+        <th scope="col">Antall</th>
+        <th scope="col">Bilde</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in inventory %}
+        <tr>
+          {% for count_item in item.counts %}
+            <td>{{ count_item.product_id }}</td>
+            <td>{{ count_item.count }}</td>
+            <td>Bilde</td>
+            {% endfor %}
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="3">Ingen inventarinformasjon tilgjengelig.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <p><a href="/forhandlere/kart">Tilbake til kartet</a></p>
+{% endblock %}

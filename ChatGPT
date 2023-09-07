@@ -1,0 +1,83 @@
+Jeg trenger å lage en funksjon som henter inn data fra et API og lagrer dette i en datamodell, jeg gjør denne jobben med en php fil i dag, men jeg ønsker å gå helt over til å bruke Django. 
+Trenger hjelp til å lage alt inkludert data modellen. 
+
+<?php
+set_time_limit(0);
+$dbhost = "localhost";
+$dbuser = "propaclo_gf_pos";
+$dbpass = "automater_Meg13@10";
+$dbname = "propaclo_GF_POS";
+$db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+mysqli_set_charset($db, "utf8"); // set UTF-8 encoding
+
+$url = "https://app.vendanor.com/api/json/rest.getNode";
+$apiKey = "a7193d2db8ca2ea198b10605f64518e8";
+$request = array("languageCode" => "no","inventory" => "true");
+
+// make request and put response into $response
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(array("apiKey"=> $apiKey, "payload" => $request)));
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4 ); // XXX: force IPv4 (preventing IPv6 DNS timeout)
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
+$result = curl_exec($ch);
+curl_close($ch);
+
+// pretty print response
+$payload = json_decode($result, TRUE);
+
+$products = $payload['payload']['products'];
+$nodes = $payload['payload']['nodes'];
+
+$sql = "TRUNCATE TABLE vendanor_products";
+mysqli_query($db, $sql);
+
+foreach ($products as $product) {
+  $query = "INSERT INTO vendanor_products SET 
+            id = '".$product['id']."', 
+            picture_id = '".$product['picture_id']."', 
+            name = '".$product['name']."', 
+            name_long ='".$product['name_long']."'";
+  mysqli_query($db, $query);
+}
+
+$sql_nodes = "TRUNCATE TABLE vendanor_nodes";
+mysqli_query($db, $sql_nodes);
+
+$sql_inv = "TRUNCATE TABLE vendanor_nodes_inventory";
+mysqli_query($db, $sql_inv);
+
+foreach ($nodes as $node) {
+  $inventory = $node['inventory'];
+  if ($node['geo_lat'] !='' && $node['geo_lng']!='' ) {
+    $query_node = "INSERT INTO vendanor_nodes SET 
+            id = '".$node['id']."', 
+            retailer_id = '".$node['retailer_id']."', 
+            group_id = '".$node['group_id']."', 
+            serialno ='".$node['serialno']."',
+            location = '".$node['location']."', 
+            address1 = '".$node['address1']."', 
+            address2 = '".$node['address2']."', 
+            postcode = '".$node['postcode']."', 
+            postcity = '".$node['postcity']."',
+            state = '".$node['state']."',
+            country = '".$node['country']."', 
+            geo_lat = '".$node['geo_lat']."', 
+            geo_lng = '".$node['geo_lng']."'";
+    mysqli_query($db, $query_node);
+        
+    $inv_count = $inventory['count'][2];
+        
+    foreach ($inv_count as $key => $cnt) {
+      $query_inv = "INSERT INTO vendanor_nodes_inventory SET 
+              id = '', 
+              node_id = '".$node['id']."', 
+              product_id = '".$key."', 
+              count ='".$cnt."',
+              location = '".$node['location']."'";
+      mysqli_query($db, $query_inv);
+    }
+  }
+}
+mysqli_close($db);
+?>

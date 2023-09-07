@@ -1,0 +1,28 @@
+{% extends "offentlig/base.html" %}
+{% load static %}
+
+{% block content %}
+  <h1>{{ node.location }}</h1>
+  <p>Dette er en propanautomat fra {{ node.source }}.</p>
+
+  <table class="table table-bordered table-responsive-sm">
+    <thead>
+      <tr>
+        <th scope="col">Produkt</th>
+        <th scope="col">Antall</th>
+        <th scope="col">Bilde</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for inventory in inventory_list %}
+        {% with product=inventory.product %}
+          <tr>
+            <td>{{ product.name }}</td>
+            <td>{{ inventory.count }}</td>
+            <td><img src="{{ product.picture_id }}" alt="{{ product.name }}" width="100"></td>
+          </tr>
+        {% endwith %}
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

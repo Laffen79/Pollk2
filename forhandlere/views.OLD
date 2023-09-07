@@ -1,0 +1,51 @@
+from django.shortcuts import render, get_object_or_404
+from vendanor_integration.models import VendanorNode, VendanorNodeInventory, VendanorProduct
+from greenfuels_noder.models import GreenFuelsNodes
+from django.http import HttpResponse
+
+def kart(request):
+    vendanor_nodes = VendanorNode.objects.all()
+    greenfuels_nodes = GreenFuelsNodes.objects.all()
+
+    # Bruk en liste til å samle alle nodene
+    nodes = []
+    vendanor_node_ids = []
+    for node in vendanor_nodes:
+        if node.id not in vendanor_node_ids:
+            vendanor_node_ids.append(node.id)
+            nodes.append({
+                'location': node.location,
+                'serialno': node.serialno,
+                'address1': node.address1,
+                'postcode': node.postcode,
+                'postcity': node.postcity,
+                'geo_lat': node.geo_lat,
+                'geo_lng': node.geo_lng,
+                'source': 'Vendanor'
+            })
+
+    for node in greenfuels_nodes:
+        nodes.append({
+            'location': node.location,
+            'address1': node.address1,
+            'postcode': node.postcode,
+            'postcity': node.postcity,
+            'geo_lat': node.geo_lat,
+            'geo_lng': node.geo_lng,
+            'source': 'GreenFuels'
+        })
+
+    return render(request, 'forhandlere/kart.html', {'nodes': nodes})
+
+def node_produkter(request, serialno):
+    try:
+        node = get_object_or_404(VendanorNode, serialno=serialno)
+        node_inventory = VendanorNodeInventory.objects.filter(node=node)
+        return render(request, 'forhandlere/node_produkter.html', {'node': node, 'inventory': node_inventory})
+    except Exception as e:
+        return HttpResponse(f"En feil oppstod: {e}")
+
+#def node(request, node_id):
+#    node = VendanorNodes.objects.get(id=node_id)
+#    inventory = node.inventory.all()
+#    return render(request, 'forhandlere/node.html', {'node': node, 'inventory': inventory})

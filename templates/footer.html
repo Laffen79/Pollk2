@@ -1,0 +1,33 @@
+<!-- footer.html -->
+<hr />
+<br />
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Kontakt oss</h3>
+                <p><strong>Adresse:</strong> Ringsakervegen 631, 2384 Brumunddal<br />
+                <strong>Ring oss på telefon:</strong> 62 20 35 50</p>
+                <p><strong>Eller send oss en E-post:</strong> <a href="mailto:kundeservice@greenfuels.no">Kundeservice</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Lenker</h3>
+                <ul class="list-unstyled">
+                    <li><a href="{% url 'home' %}">Hjem</a></li>
+                    <li><a href="{% url 'forhandlere:kart' %}">Forhandlere</a></li>
+                    <li><a href="{% url 'produkter:propanflasker_liste' %}">Produkter</a></li>
+                    <li><a href="{% url 'about' %}">Om oss</a></li>
+                    <li><a href="{% url 'contact' %}">Kontakt oss</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Følg oss</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

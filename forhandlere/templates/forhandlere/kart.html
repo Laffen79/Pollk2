@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  <h1>Oversikt propanautomater og forhandlere</h1>
+  <h3>Her finner du enkelt ut hvor du kan handle propan!</h3>
+  <p>De orange markørene er utsalgssteder som også drifter døgnåpen propanautomat fra oss, de grønne markørene er tradisjonelle forhandlere.<br />
+    Du kan klikke på de orange markørene som representerer en propanautomat, og få opp sanntids beholdning av hva som finnes av flasker i denne.</p>
+
+<div id="map" style="height: 600px;"></div>
+<br />
+<table class="table table-bordered table-responsive-sm">
+    <thead>
+        <tr>
+            <th scope="col">Plassering</th>
+            <th scope="col">Type</th>
+            <th scope="col">Adresse</th>
+            <th scope="col">Postnummer</th>
+            <th scope="col">Poststed</th>
+            <!--<th scope="col">Link</th>-->
+        </tr>
+    </thead>
+    <tbody>
+        {% for node in nodes %}
+            <tr>
+                <td class="w-30">
+                    {% if node.source == 'Vendanor' %}
+                    <a href="{% url 'hent_produkt:node_inventory' serialno=node.serialno %}">{{ node.location }}</a>
+                    <!--    <a href="../node/{{ node.serialno }}">{{ node.location }}</a> -->
+                    {% else %}
+                        {{ node.location }}
+                    {% endif %}
+                </td>
+                <td class="w-10">
+                    {% if node.source == 'Vendanor' %}
+                        Propanautomat
+                    {% else %}
+                        Butikk
+                    {% endif %}
+                </td>
+                <td class="w-20">{{ node.address1 }}</td>
+                <td class="w-10">{{ node.postcode }}</td>
+                <td class="w-15">{{ node.postcity }}</td>
+                <!--<td class="w-10">
+                    {% if node.source == 'Vendanor' %}
+                        {{ node.node_id }}
+                    {% else %}
+                        &nbsp;
+                    {% endif %}
+                </td>-->
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzpkgQbzXVoRJkPVoBX7vjH64NDPISKas&callback=initMap"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzpkgQbzXVoRJkPVoBX7vjH64NDPISKas"></script>-->
+<script>
+  var map;
+  var markers = [];
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: 60.58514642965917, lng: 11.023606281628517 },
+      zoom: 8,
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    {% for node in nodes %}
+      {% if node.source == 'Vendanor' %}
+        var markerIcon = 'https://maps.google.com/mapfiles/ms/icons/orange-dot.png';
+        /* HER ER HVORDAN MAN LEGGER INN EGNE IKONER SOM MARKØR I KARTET. 
+        var markerIcon = {
+          url: 'path/til/filen/orange-dot.png',
+          size: new google.maps.Size(40, 40) // Bredde: 40 piksler, Høyde: 40 piksler
+          anchor: new google.maps.Point(20, 40) // x: 20 piksler, y: 40 piksler Denne definerer "Senterpunkt på ikonet"
+        }; 
+        */
+        var content = '<h5>{{ node.location }}</h5><p>{{ node.address1 }}, {{ node.postcode }} {{ node.postcity }}</p><p><strong>Automat nummer: </strong>{{ node.serialno }}</p><div style="text-align: center;"><a class="btn btn-primary" href="{% url 'hent_produkt:node_inventory' serialno=node.serialno %}" onclick="this.parentNode.parentNode.parentNode.parentNode.parentNode.close(); return true;">BEHOLDNING</a></div>';
+      {% else %}
+        var markerIcon = 'https://maps.google.com/mapfiles/ms/icons/green-dot.png';
+        var content = '<h5>{{ node.location }}</h5><p>{{ node.address1 }}, {{ node.postcode }} {{ node.postcity }}</p>';
+      {% endif %}
+
+      var marker = new google.maps.Marker({
+        position: { lat: {{ node.geo_lat }}, lng: {{ node.geo_lng }} },
+        map: map,
+        icon: markerIcon,
+        infowindow: new google.maps.InfoWindow({
+          content: content
+        }),
+      });
+
+      {% if node.table == 'vendanor_nodes' %}
+        google.maps.event.addListener(marker, 'click', function () {
+          window.location.href = "{% url 'node' node.id %}";
+        });
+      {% endif %}
+
+      google.maps.event.addListener(marker, 'click', function () {
+        infowindow.setContent(this.infowindow.content);
+        infowindow.open(map, this);
+      });
+
+      markers.push(marker);
+
+    {% endfor %}
+
+    var markerCluster = new MarkerClusterer(map, markers, {
+      imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+    });
+  }
+</script>
+
+
+
+{% endblock %}
+

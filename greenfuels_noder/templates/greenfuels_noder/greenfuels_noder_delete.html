@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Delete Green Fuels Node</h1>
+    <p>Are you sure you want to delete "{{ greenfuelsnode.location }}"?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes</button>
+        <a href="{% url 'greenfuels_noder' %}">No</a>
+    </form>
+{% endblock %}
+    

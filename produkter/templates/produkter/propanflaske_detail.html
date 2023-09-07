@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="section">
+<div class="container">
+
+    
+<div class="row">
+    <div class="col-md-4">
+        {% if propanflaske.bilde_id %}
+        <img src="/staticfiles/img/{{ propanflaske.bilde_id }}.png" alt="{{ propanflaske.beskrivelse }}" class="product-image_produkter img-fluid">
+        {% else %}
+        <img src="/staticfiles/img/placeholder.png" alt="Bilde ikke tilgjengelig" class="propanflaske-image img-fluid">
+        {% endif %}
+    </div>
+    <div class="col-md-8">
+<<<<<<< HEAD
+        <h4 class="mb-4">Teknisk-informasjon: {{ propanflaske.beskrivelse }}</h4>
+=======
+        <h4 class="mb-4">Tekniskinformasjon: {{ propanflaske.beskrivelse }}</h4>
+>>>>>>> origin/master
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td><strong>Materiale:</strong></td>
+                    <td>{{ propanflaske.materiale }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Ventil:</strong></td>
+                    <td>{{ propanflaske.ventil }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Gassmengde:</strong></td>
+                    <td>{{ propanflaske.gassmengde }} kg</td>
+                </tr>
+                <tr>
+                    <td><strong>Taravekt:</strong></td>
+                    <td>{{ propanflaske.taravekt }} kg</td>
+                </tr>
+                <tr>
+                    <td><strong>Totalvekt:</strong></td>
+                    <td>{{ propanflaske.totalvekt }} kg</td>
+                </tr>  
+                <tr>
+                    <td><strong>Diameter:</strong></td>
+                    <td>{{ propanflaske.diameter }} cm</td>
+                </tr>
+                <tr>
+                    <td><strong>Høyde:</strong></td>
+                    <td>{{ propanflaske.hoyde }} cm</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-12">
+        <h4 class="mb-4">Bestillingsinformasjon</h4>
+        <table class="table table-borderless">
+            <tbody>    
+                <tr>
+                    <td><strong>Art.nr nykjøp:</strong></td>
+                    <td>{{ propanflaske.artikkelnummer_nykjop }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Art.nr fylling:</strong></td>
+                    <td>{{ propanflaske.artikkelnummer_fylling }}</td>
+                </tr>
+                <tr>
+                    <td><strong>NOBB Nykjøp:</strong></td>
+                    <td>{{ propanflaske.NOBB_nykjop }}</td>
+                </tr>
+                <tr>
+                    <td><strong>NOBB Fylling:</strong></td>
+                    <td>{{ propanflaske.NOBB_fylling }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container py-3">
+            <a href="{% url 'produkter:propanflasker_liste' %}" class="btn btn-primary">Tilbake til produkter</a>
+        </div>
+    </div>
+</div>
+      
+</div>
+</section>
+{% endblock %}
+

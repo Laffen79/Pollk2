@@ -1,0 +1,1340 @@
+INFO 2023-09-05 09:34:30,213 autoreload Watching for file changes with StatReloader
+INFO 2023-09-05 09:45:26,624 autoreload Watching for file changes with StatReloader
+ERROR 2023-09-05 09:48:48,367 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:48:48,534 log Bad Request: /produkter/
+ERROR 2023-09-05 09:48:51,197 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:48:51,239 log Bad Request: /forhandlere/kart/
+ERROR 2023-09-05 09:48:59,492 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:48:59,525 log Bad Request: /kontakt/
+ERROR 2023-09-05 09:48:59,629 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:48:59,659 log Bad Request: /favicon.ico
+ERROR 2023-09-05 09:49:07,443 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:49:07,477 log Bad Request: /
+ERROR 2023-09-05 09:49:07,581 exception Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '64.226.74.80'. You may need to add '64.226.74.80' to ALLOWED_HOSTS.
+WARNING 2023-09-05 09:49:07,614 log Bad Request: /favicon.ico
+WARNING 2023-09-05 09:50:21,859 log Not Found: /favicon.ico
+ERROR 2023-09-05 09:50:34,427 log Internal Server Error: /importer_automater/update_database/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/importer_automater/views.py", line 23, in update_database
+    return HttpResponse("Hello World!")
+NameError: name 'HttpResponse' is not defined
+ERROR 2023-09-05 09:52:10,373 log Internal Server Error: /hent_produkt/node_inventory/201500009/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/hent_produkt/views.py", line 17, in get_node_inventory
+    for product_id, count in inventory.count.items():
+AttributeError: 'list' object has no attribute 'items'
+WARNING 2023-09-05 10:16:35,460 log Not Found: /c/
+WARNING 2023-09-05 10:24:13,353 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:25:01,349 log Not Found: /geoserver/web/
+WARNING 2023-09-05 10:35:30,311 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:35:32,463 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:35:32,976 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:35:33,314 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:35:33,503 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:35:33,852 log Not Found: /favicon.ico
+ERROR 2023-09-05 10:35:45,426 exception Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2023-09-05 10:35:45,469 log Bad Request: /
+WARNING 2023-09-05 10:37:01,167 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:37:11,433 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:37:12,080 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:37:12,432 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:41:20,503 log Not Found: /favicon.ico
+WARNING 2023-09-05 10:46:55,003 log Not Found: /favicon.ico
+ERROR 2023-09-05 10:52:13,693 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 10:52:25,854 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 10:57:11,662 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 10:59:10,716 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 10:59:11,694 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 11:00:53,712 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 11:00:57,434 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+WARNING 2023-09-05 11:01:02,238 log Not Found: /favicon.ico
+ERROR 2023-09-05 11:01:04,957 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 11:01:40,108 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 11:01:44,309 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-05 11:08:13,829 log Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 10, in about
+    return render(request, 'offentlig/about.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'endblock'. Did you forget to register or load this tag?
+WARNING 2023-09-05 11:13:17,473 log Not Found: /layouts/main/scripts/global/bluemail.js
+WARNING 2023-09-05 11:29:39,209 log Not Found: /favicon.ico
+WARNING 2023-09-05 11:31:26,863 log Not Found: /favicon.ico
+WARNING 2023-09-05 11:54:34,923 log Not Found: /client/get_targets
+WARNING 2023-09-05 11:54:35,122 log Not Found: /upl.php
+WARNING 2023-09-05 11:54:35,499 log Not Found: /geoip/
+WARNING 2023-09-05 11:54:35,886 log Not Found: /favicon.ico
+WARNING 2023-09-05 11:54:36,089 log Not Found: /1.php
+WARNING 2023-09-05 11:54:36,288 log Not Found: /bundle.js
+WARNING 2023-09-05 11:54:36,488 log Not Found: /files/
+WARNING 2023-09-05 11:54:36,690 log Not Found: /systembc/password.php
+WARNING 2023-09-05 11:54:36,891 log Not Found: /password.php
+WARNING 2023-09-05 11:54:37,088 log Not Found: /info.php
+WARNING 2023-09-05 14:33:48,661 log Not Found: /config/getuser
+WARNING 2023-09-05 15:12:10,469 log Not Found: /favicon.ico
+WARNING 2023-09-05 15:12:12,105 log Not Found: /robots.txt
+WARNING 2023-09-05 15:12:13,004 log Not Found: /sitemap.xml
+WARNING 2023-09-05 15:16:42,693 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-05 15:17:27,253 log Not Found: /favicon.ico
+ERROR 2023-09-05 15:40:57,867 log Internal Server Error: /hent_produkt/node_inventory/201500009/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/hent_produkt/views.py", line 17, in get_node_inventory
+    for product_id, count in inventory.count.items():
+AttributeError: 'list' object has no attribute 'items'
+ERROR 2023-09-05 15:48:23,812 log Internal Server Error: /importer_automater/update_database/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/importer_automater/views.py", line 20, in update_database
+    print(response.json())
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 5] Input/output error
+WARNING 2023-09-05 15:48:29,886 log Not Found: /favicon.ico
+ERROR 2023-09-05 15:49:04,901 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 7, in home
+    return render(request, 'offentlig/home.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+ERROR 2023-09-05 15:49:05,764 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 7, in home
+    return render(request, 'offentlig/home.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+ERROR 2023-09-05 15:49:40,864 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 7, in home
+    return render(request, 'offentlig/home.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+ERROR 2023-09-05 15:49:42,040 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/offentlig/views.py", line 7, in home
+    return render(request, 'offentlig/home.html')
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+ERROR 2023-09-05 15:52:44,201 log Internal Server Error: /produkter/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/produkter/views.py", line 6, in propanflasker_liste
+    return render(request, 'produkter/propanflasker_liste.html', {'propanflasker': propanflasker})
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: includes/footer.html
+WARNING 2023-09-05 16:04:14,108 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:15,821 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:16,279 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:16,496 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:16,778 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:17,075 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:04:17,345 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:20,475 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:21,261 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:21,466 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:21,829 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:22,192 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:22,597 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:22,976 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:23,322 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:06:23,690 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:11:34,641 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:19,327 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:20,193 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:20,497 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:20,726 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:20,918 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:21,086 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:21,257 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:21,425 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:14:21,586 log Not Found: /favicon.ico
+WARNING 2023-09-05 16:33:15,362 log Not Found: /config/getuser
+ERROR 2023-09-05 17:31:27,026 exception Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2023-09-05 17:31:27,076 log Bad Request: /
+WARNING 2023-09-05 17:38:07,099 log Not Found: /favicon.ico
+WARNING 2023-09-05 17:50:42,917 log Not Found: /vendor/.env
+WARNING 2023-09-05 17:50:43,113 log Not Found: /.env
+WARNING 2023-09-05 17:50:43,309 log Not Found: /.env.txt
+WARNING 2023-09-05 17:50:43,511 log Not Found: /env.txt
+WARNING 2023-09-05 17:50:43,712 log Not Found: /.env.bak
+WARNING 2023-09-05 17:50:43,919 log Not Found: /.aws/credentials/phpinfo
+WARNING 2023-09-05 17:50:44,126 log Not Found: /phpinfo.php
+WARNING 2023-09-05 17:50:44,327 log Not Found: /aws.yml
+WARNING 2023-09-05 17:50:44,524 log Not Found: /info.php
+WARNING 2023-09-05 17:50:44,735 log Not Found: /config/aws.yml
+WARNING 2023-09-05 17:50:44,940 log Not Found: /.env.example
+WARNING 2023-09-05 17:50:45,129 log Not Found: /.env_old
+WARNING 2023-09-05 17:50:45,328 log Not Found: /vendor/.env.example
+WARNING 2023-09-05 17:50:45,532 log Not Found: /core/.env.example
+WARNING 2023-09-05 17:50:45,731 log Not Found: /config/.env.example
+WARNING 2023-09-05 17:50:45,931 log Not Found: /app/.env.example
+WARNING 2023-09-05 17:50:46,132 log Not Found: /web/.env.example
+WARNING 2023-09-05 17:50:46,332 log Not Found: /public/.env.example
+WARNING 2023-09-05 17:50:46,539 log Not Found: /en/.env.example
+WARNING 2023-09-05 17:50:46,737 log Not Found: /laravel/.env.example
+WARNING 2023-09-05 17:50:46,939 log Not Found: /api/.env.example
+WARNING 2023-09-05 17:50:47,134 log Not Found: /app/.env.example
+WARNING 2023-09-05 17:50:47,333 log Not Found: /app/frontend/.env.example
+WARNING 2023-09-05 17:50:47,535 log Not Found: /application/.env.example
+WARNING 2023-09-05 17:50:47,728 log Not Found: /awstats/.env.example
+WARNING 2023-09-05 17:50:47,931 log Not Found: /back-end/app/.env.example
+WARNING 2023-09-05 17:50:48,124 log Not Found: /backend/.env.example
+WARNING 2023-09-05 17:50:48,325 log Not Found: /backup/.env.example
+WARNING 2023-09-05 17:50:48,532 log Not Found: /bootstrap/.env.example
+WARNING 2023-09-05 17:50:48,732 log Not Found: /build/.env.example
+WARNING 2023-09-05 17:50:48,930 log Not Found: /core/.env.example
+WARNING 2023-09-05 17:50:49,125 log Not Found: /data/.env.example
+WARNING 2023-09-05 17:50:49,320 log Not Found: /database/.env.example
+WARNING 2023-09-05 17:50:49,518 log Not Found: /demo/.env.example
+WARNING 2023-09-05 17:50:49,721 log Not Found: /dev/.env.example
+WARNING 2023-09-05 17:50:49,920 log Not Found: /developer/.env.example
+WARNING 2023-09-05 17:50:50,113 log Not Found: /django_project_path/.env.example
+WARNING 2023-09-05 17:50:50,318 log Not Found: /docker/.env.example
+WARNING 2023-09-05 17:50:50,522 log Not Found: /docs/.env.example
+WARNING 2023-09-05 17:50:50,726 log Not Found: /en/.env.example
+WARNING 2023-09-05 17:50:50,926 log Not Found: /env/.env.example
+WARNING 2023-09-05 17:50:51,122 log Not Found: /environments/.env.example
+WARNING 2023-09-05 17:50:51,325 log Not Found: /example/.env.example
+WARNING 2023-09-05 17:50:51,520 log Not Found: /examples/.env.example
+WARNING 2023-09-05 17:50:51,720 log Not Found: /front-app/.env.example
+WARNING 2023-09-05 17:50:51,923 log Not Found: /front-empathy/.env.example
+WARNING 2023-09-05 17:50:52,119 log Not Found: /front-end/.env.example
+WARNING 2023-09-05 17:50:52,315 log Not Found: /front/.env.example
+WARNING 2023-09-05 17:50:52,512 log Not Found: /frontend/.env.example
+WARNING 2023-09-05 17:50:52,709 log Not Found: /js/.env.example
+WARNING 2023-09-05 17:50:52,908 log Not Found: /local/.env.example
+WARNING 2023-09-05 17:50:53,103 log Not Found: /log/.env.example
+WARNING 2023-09-05 17:50:53,304 log Not Found: /mail/.env.example
+WARNING 2023-09-05 17:50:53,501 log Not Found: /prod/.env.example
+WARNING 2023-09-05 17:50:53,700 log Not Found: /production/.env.example
+WARNING 2023-09-05 17:50:53,899 log Not Found: /pub/.env.example
+WARNING 2023-09-05 17:50:54,103 log Not Found: /public/.env.example
+WARNING 2023-09-05 17:50:54,296 log Not Found: /rest/.env.example
+WARNING 2023-09-05 17:50:54,498 log Not Found: /route/.env.example
+WARNING 2023-09-05 17:50:54,705 log Not Found: /src/.env.example
+WARNING 2023-09-05 17:50:54,908 log Not Found: /stag/.env.example
+WARNING 2023-09-05 17:50:55,108 log Not Found: /staging/.env.example
+WARNING 2023-09-05 17:50:55,495 log Not Found: /stats/.env.example
+WARNING 2023-09-05 17:50:55,706 log Not Found: /storage/.env.example
+WARNING 2023-09-05 17:50:55,902 log Not Found: /system/.env.example
+WARNING 2023-09-05 17:50:56,105 log Not Found: /temp/.env.example
+WARNING 2023-09-05 17:50:56,310 log Not Found: /test/.env.example
+WARNING 2023-09-05 17:50:56,508 log Not Found: /tests/.env.example
+WARNING 2023-09-05 17:50:56,705 log Not Found: /thumb/.env.example
+WARNING 2023-09-05 17:50:56,903 log Not Found: /thumbs/.env.example
+WARNING 2023-09-05 17:50:57,106 log Not Found: /tmp/.env.example
+WARNING 2023-09-05 17:50:57,299 log Not Found: /vendor/.env.example
+WARNING 2023-09-05 17:50:57,500 log Not Found: /vendor/laravel/.env.example
+WARNING 2023-09-05 17:50:57,703 log Not Found: /web/.env.example
+WARNING 2023-09-05 17:50:57,907 log Not Found: /.env_bak
+WARNING 2023-09-05 17:50:58,103 log Not Found: /.env.suspected
+WARNING 2023-09-05 17:50:58,300 log Not Found: /.env.1
+WARNING 2023-09-05 17:50:58,494 log Not Found: /.env~
+WARNING 2023-09-05 17:50:58,698 log Not Found: /.env.example.1
+WARNING 2023-09-05 17:50:58,907 log Not Found: /.env.example.suspected
+WARNING 2023-09-05 17:50:59,105 log Not Found: /core/.env
+WARNING 2023-09-05 17:50:59,310 log Not Found: /config/.env
+WARNING 2023-09-05 17:50:59,512 log Not Found: /app/.env
+WARNING 2023-09-05 17:50:59,712 log Not Found: /web/.env
+WARNING 2023-09-05 17:50:59,912 log Not Found: /public/.env
+WARNING 2023-09-05 17:51:00,110 log Not Found: /en/.env
+WARNING 2023-09-05 17:51:00,304 log Not Found: /laravel/.env
+WARNING 2023-09-05 17:51:00,502 log Not Found: /api/.env
+WARNING 2023-09-05 17:51:00,701 log Not Found: /app/.env
+WARNING 2023-09-05 17:51:00,914 log Not Found: /app/frontend/.env
+WARNING 2023-09-05 17:51:01,122 log Not Found: /application/.env
+WARNING 2023-09-05 17:51:01,335 log Not Found: /awstats/.env
+WARNING 2023-09-05 17:51:01,543 log Not Found: /back-end/app/.env
+WARNING 2023-09-05 17:51:01,739 log Not Found: /backend/.env
+WARNING 2023-09-05 17:51:01,942 log Not Found: /backup/.env
+WARNING 2023-09-05 17:51:02,149 log Not Found: /bootstrap/.env
+WARNING 2023-09-05 17:51:02,353 log Not Found: /build/.env
+WARNING 2023-09-05 17:51:02,550 log Not Found: /core/.env
+WARNING 2023-09-05 17:51:02,755 log Not Found: /data/.env
+WARNING 2023-09-05 17:51:02,958 log Not Found: /database/.env
+WARNING 2023-09-05 17:51:03,158 log Not Found: /demo/.env
+WARNING 2023-09-05 17:51:03,359 log Not Found: /dev/.env
+WARNING 2023-09-05 17:51:03,567 log Not Found: /developer/.env
+WARNING 2023-09-05 17:51:03,768 log Not Found: /django_project_path/.env
+WARNING 2023-09-05 17:51:03,964 log Not Found: /docker/.env
+WARNING 2023-09-05 17:51:04,174 log Not Found: /docs/.env
+WARNING 2023-09-05 17:51:04,373 log Not Found: /en/.env
+WARNING 2023-09-05 17:51:04,578 log Not Found: /env/.env
+WARNING 2023-09-05 17:51:04,778 log Not Found: /environments/.env
+WARNING 2023-09-05 17:51:04,978 log Not Found: /example/.env
+WARNING 2023-09-05 17:51:05,174 log Not Found: /examples/.env
+WARNING 2023-09-05 17:51:05,381 log Not Found: /front-app/.env
+WARNING 2023-09-05 17:51:05,588 log Not Found: /front-empathy/.env
+WARNING 2023-09-05 17:51:05,797 log Not Found: /front-end/.env
+WARNING 2023-09-05 17:51:06,006 log Not Found: /front/.env
+WARNING 2023-09-05 17:51:06,201 log Not Found: /frontend/.env
+WARNING 2023-09-05 17:51:06,393 log Not Found: /js/.env
+WARNING 2023-09-05 17:51:06,593 log Not Found: /local/.env
+WARNING 2023-09-05 17:51:06,793 log Not Found: /log/.env
+WARNING 2023-09-05 17:51:06,995 log Not Found: /mail/.env
+WARNING 2023-09-05 17:51:07,197 log Not Found: /prod/.env
+WARNING 2023-09-05 17:51:07,393 log Not Found: /production/.env
+WARNING 2023-09-05 17:51:07,591 log Not Found: /pub/.env
+WARNING 2023-09-05 17:51:07,801 log Not Found: /public/.env
+WARNING 2023-09-05 17:51:08,007 log Not Found: /rest/.env
+WARNING 2023-09-05 17:51:08,202 log Not Found: /route/.env
+WARNING 2023-09-05 17:51:08,396 log Not Found: /src/.env
+WARNING 2023-09-05 17:51:08,596 log Not Found: /stag/.env
+WARNING 2023-09-05 17:51:08,791 log Not Found: /staging/.env
+WARNING 2023-09-05 17:51:08,989 log Not Found: /staging2/.env
+WARNING 2023-09-05 17:51:09,373 log Not Found: /stats/.env
+WARNING 2023-09-05 17:51:09,574 log Not Found: /storage/.env
+WARNING 2023-09-05 17:51:09,779 log Not Found: /system/.env
+WARNING 2023-09-05 17:51:09,987 log Not Found: /temp/.env
+WARNING 2023-09-05 17:51:10,185 log Not Found: /test/.env
+WARNING 2023-09-05 17:51:10,378 log Not Found: /tests/.env
+WARNING 2023-09-05 17:51:10,571 log Not Found: /tmp/.env
+WARNING 2023-09-05 17:51:10,772 log Not Found: /vendor/.env
+WARNING 2023-09-05 17:51:10,975 log Not Found: /vendor/laravel/.env
+WARNING 2023-09-05 17:51:11,179 log Not Found: /web/.env
+WARNING 2023-09-05 17:51:11,382 log Not Found: /v1/.env
+WARNING 2023-09-05 17:51:11,583 log Not Found: /v2/.env
+WARNING 2023-09-05 17:51:11,787 log Not Found: /v1/.env.example
+WARNING 2023-09-05 17:51:11,992 log Not Found: /v2/.env.example
+WARNING 2023-09-05 17:51:12,200 log Not Found: /staging2/.env
+WARNING 2023-09-05 17:51:12,407 log Not Found: /staging2/.env.example
+WARNING 2023-09-05 17:51:12,602 log Not Found: /project/.env
+WARNING 2023-09-05 17:51:12,799 log Not Found: /project/.env.example
+WARNING 2023-09-05 17:51:12,999 log Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-05 17:52:10,862 log Not Found: /favicon.ico
+WARNING 2023-09-05 19:19:31,882 log Not Found: /UEPs
+WARNING 2023-09-05 20:25:57,999 log Not Found: /favicon.ico
+WARNING 2023-09-05 20:46:19,111 log Not Found: /.env
+WARNING 2023-09-05 20:46:37,799 log Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-05 22:39:29,879 log Not Found: /favicon.ico
+WARNING 2023-09-05 22:39:30,423 log Not Found: /robots.txt
+WARNING 2023-09-05 23:21:23,886 log Not Found: /.env
+ERROR 2023-09-05 23:40:04,530 exception Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2023-09-05 23:40:04,582 log Bad Request: /
+WARNING 2023-09-06 01:36:37,249 log Not Found: /.aws/credentials
+WARNING 2023-09-06 02:21:14,738 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-06 04:15:59,457 log Not Found: /favicon.ico
+WARNING 2023-09-06 04:16:00,041 log Not Found: /robots.txt
+WARNING 2023-09-06 04:42:41,007 log Not Found: /favicon.ico
+WARNING 2023-09-06 04:42:41,622 log Not Found: /robots.txt
+WARNING 2023-09-06 04:42:42,786 log Not Found: /sitemap.xml
+ERROR 2023-09-06 04:55:18,113 exception Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2023-09-06 04:55:18,138 log Bad Request: /
+WARNING 2023-09-06 04:58:59,006 log Not Found: /Nm4m
+WARNING 2023-09-06 04:58:59,415 log Not Found: /XmVB
+WARNING 2023-09-06 05:00:57,839 log Not Found: /favicon.ico
+WARNING 2023-09-06 05:08:30,529 log Not Found: /favicon.ico
+WARNING 2023-09-06 05:09:47,778 log Not Found: /geoserver/web/
+WARNING 2023-09-06 06:00:27,098 log Not Found: /favicon.ico
+WARNING 2023-09-06 06:05:36,868 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-06 08:38:43,439 log Not Found: /favicon.ico
+WARNING 2023-09-06 09:10:24,959 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-06 09:13:01,153 log Not Found: /favicon.ico
+WARNING 2023-09-06 09:51:46,283 log Not Found: /favicon.ico
+WARNING 2023-09-06 10:30:01,699 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-06 13:18:05,934 log Not Found: /config/getuser
+WARNING 2023-09-06 13:35:03,091 log Not Found: /favicon.ico
+ERROR 2023-09-06 13:47:19,865 log Internal Server Error: /importer_automater/update_database/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/importer_automater/views.py", line 20, in update_database
+    print(response.json())
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 5] Input/output error
+WARNING 2023-09-06 16:49:40,915 log Not Found: /favicon-32x32.png
+WARNING 2023-09-06 17:03:15,788 log Not Found: /aaa9
+WARNING 2023-09-06 17:03:23,837 log Not Found: /aab8
+WARNING 2023-09-06 17:03:48,584 log Not Found: /favicon.ico
+WARNING 2023-09-06 17:03:52,732 log Not Found: /robots.txt
+WARNING 2023-09-06 17:03:57,586 log Not Found: /sitemap.xml
+WARNING 2023-09-06 18:19:26,979 log Not Found: /aaa9
+WARNING 2023-09-06 18:19:36,717 log Not Found: /aab8
+WARNING 2023-09-06 18:28:39,326 log Not Found: /favicon.ico
+WARNING 2023-09-06 18:44:43,713 log Not Found: /.env
+WARNING 2023-09-06 18:44:44,474 log Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-06 19:27:51,948 log Not Found: /favicon.ico
+WARNING 2023-09-06 21:05:21,203 log Not Found: /favicon.ico
+WARNING 2023-09-06 21:11:40,330 log Not Found: /favicon.ico
+WARNING 2023-09-06 21:46:41,832 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-06 23:09:40,861 log Not Found: /config/getuser
+WARNING 2023-09-06 23:11:22,891 log Not Found: /favicon.ico
+WARNING 2023-09-06 23:56:07,130 log Not Found: /favicon.ico
+WARNING 2023-09-06 23:56:08,224 log Not Found: /robots.txt
+WARNING 2023-09-06 23:56:09,092 log Not Found: /sitemap.xml
+WARNING 2023-09-07 00:44:48,152 log Not Found: /webfig/
+WARNING 2023-09-07 01:28:43,277 log Not Found: /showLogin.cc
+ERROR 2023-09-07 01:37:00,459 exception Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2023-09-07 01:37:00,492 log Bad Request: /
+WARNING 2023-09-07 02:10:22,140 log Not Found: /favicon.ico
+WARNING 2023-09-07 02:34:26,304 log Not Found: /favicon.ico
+WARNING 2023-09-07 02:35:07,647 log Not Found: /geoserver/web/
+WARNING 2023-09-07 04:02:53,095 log Not Found: /favicon.ico
+WARNING 2023-09-07 04:02:53,585 log Not Found: /favicon.ico
+WARNING 2023-09-07 04:02:55,052 log Not Found: /favicon.ico
+WARNING 2023-09-07 04:43:55,235 log Not Found: /EWUk
+WARNING 2023-09-07 04:43:55,343 log Not Found: /eHGi
+WARNING 2023-09-07 05:16:04,573 log Not Found: /favicon.ico
+WARNING 2023-09-07 06:01:07,036 log Not Found: /favicon.ico
+WARNING 2023-09-07 06:30:30,833 log Not Found: /favicon.ico
+WARNING 2023-09-07 06:31:03,110 log Not Found: /druid/index.html
+WARNING 2023-09-07 06:55:58,494 log Not Found: /Temporary_Listen_Addresses
+WARNING 2023-09-07 09:02:08,538 log Not Found: /.env
+WARNING 2023-09-07 10:18:24,578 log Not Found: /hudson
+WARNING 2023-09-07 13:02:12,709 log Not Found: /boaform/admin/formLogin
+WARNING 2023-09-07 13:03:55,270 log Not Found: /manager/html
+WARNING 2023-09-07 14:12:46,850 log Not Found: /japi/api/banner/list
+WARNING 2023-09-07 14:39:24,515 log Not Found: /portal/redlion
+ERROR 2023-09-07 14:47:36,310 log Internal Server Error: /importer_automater/update_database/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/Pollk/importer_automater/views.py", line 20, in update_database
+    print(response.json())
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "/usr/lib/python3/dist-packages/colorama/ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 5] Input/output error

@@ -1,0 +1,7 @@
+[2023-05-12 13:39:57 +0000] [577265] [INFO] Starting gunicorn 20.1.0
+[2023-05-12 13:39:57 +0000] [577265] [INFO] Listening at: http://0.0.0.0:8000 (577265)
+[2023-05-12 13:39:57 +0000] [577265] [INFO] Using worker: sync
+[2023-05-12 13:39:57 +0000] [577266] [INFO] Booting worker with pid: 577266
+[2023-05-12 13:40:43 +0000] [577265] [INFO] Handling signal: int
+[2023-05-12 13:40:43 +0000] [577266] [INFO] Worker exiting (pid: 577266)
+[2023-05-12 13:40:43 +0000] [577265] [INFO] Shutting down: Master

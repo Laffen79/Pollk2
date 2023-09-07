@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Green Fuels Nodes</h1>
+    <ul>
+    {% for node in greenfuelsnoder %}
+        <li>
+            {{ node.location }} - {{ node.address1 }}, {{ node.postcode }} {{ node.postcity }} 
+            (<a href="{% url 'edit_greenfuelsnode' node.id %}">Edit</a> / <a href="{% url 'delete_greenfuelsnode' node.id %}">Delete</a>)
+        </li>
+    {% empty %}
+        <li>No nodes found.</li>
+    {% endfor %}
+    </ul>
+    <p><a href="{% url 'add_greenfuelsnode' %}">Add new node</a></p>
+{% endblock %}

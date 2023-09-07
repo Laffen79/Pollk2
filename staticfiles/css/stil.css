@@ -1,0 +1,37 @@
+.product-image {
+    max-width: 40px;
+  }
+
+  .in-stock {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .low-stock {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+  }
+  
+/* Stiler for footer */
+.footer {
+    background-color: #333; /* Bakgrunnsfargen for footer */
+    color: #fff; /* Tekstfargen for footer */
+    padding: 30px 0; /* Mellomrom over og under footer-elementene */
+  }
+
+.footer h3 {
+    color: #fff; /* Fargen for overskrifter i footer */
+  }
+
+.footer a {
+    color: #fff; /* Fargen for lenker i footer */
+  }
+
+.footer a:hover {
+    text-decoration: underline; /* Legger til understrek på lenker når musepekeren svever over dem */
+  }

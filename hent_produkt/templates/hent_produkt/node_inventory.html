@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>{{ location }} - {{ address1 }}, {{ postcode }}  {{ postcity }}</h1>
+{% if products %}
+  <table>
+
+    <tbody>
+        {% for product, info in products.items %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        {% if info.image %}
+                            <img src="{% static 'img/' %}{{ info.image }}.png" alt="{{ product.name }}" class="product-image">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-10">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        {% if info.count == 0 %}
+                            <p class="card-text out-of-stock">UTSOLGT!</p>
+                        {% elif info.count <= 2 %}
+                            <p class="card-text low-stock">Antall: {{ info.count }}</p>
+                        {% else %}
+                            <p class="card-text in-stock">Antall: {{ info.count }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </tbody>
+  </table>
+  <a href="{% url 'forhandlere:kart' %}" class="btn btn-primary">Tilbake til kart</a>
+{% else %}
+  <p>Ingen produkter er tilgjengelige på denne noden.</p>
+{% endif %}
+
+
+{% endblock %}

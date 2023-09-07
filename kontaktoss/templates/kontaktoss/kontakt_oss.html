@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <h1>Kontakt oss</h1>
+  <form method="post" action="{% url 'kontakt_oss' %}">
+    {% csrf_token %}
+    {{ skjema.as_p }}
+    <button type="submit">Send</button>
+  </form>
+{% endblock %}

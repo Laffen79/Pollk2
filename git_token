@@ -1,0 +1,16 @@
+
+
+
+
+# Starte serveren
+sudo gunicorn Pollk.wsgi:application --bind unix:/home/django/django_project/gunicorn.sock &
+
+
+# FOR Å KLONE REPOSITORIET 
+# Stå i mappen /home/django/
+sudo git clone https://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@github.com/Laffen79/Pollk.git django_project
+
+
+# Token for GitHub clone
+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
+

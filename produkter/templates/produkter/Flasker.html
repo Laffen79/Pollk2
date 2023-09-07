@@ -1,0 +1,29 @@
+<!-- CONTENT GOES HERE ! -->
+    <table id="productsTable" class="custom-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Beskrivelse</th>
+                <th>Gass (kg)</th>
+                <th class="sortable">Materiale</th>
+                <th class="sortable">Flasketype</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for propanflaske in propanflasker %}
+            <tr>
+				<td class="picture-id">
+                    {% if propanflaske.bilde_id %}
+                    <img src="/staticfiles/img/{{ propanflaske.bilde_id }}.png" alt="{{ propanflaske.beskrivelse }}" class="product-image_produkter">
+                    {% else %}
+                    <img src="/staticfiles/img/placeholder.png" alt="Bilde ikke tilgjengelig" class="propanflaske-image">
+                    {% endif %}
+                </td>
+				<td class="long-desc">{{ propanflaske.beskrivelse }}</td>
+				<td class="weight-gas">{{ propanflaske.gassmengde }}</td>
+				<td class="material">{{ propanflaske.materiale }}</td>
+				<td class="valve">{{ propanflaske.ventil }}</td>	
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>

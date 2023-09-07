@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid py-5">
+    <h2 class="mb-5">Oversikt over våre propanflasker</h2>
+    <p class="mb-5"><strong>Vi gjør for ordensskyld oppmerksom på at dette er alle flaskene vi fører, men det er ikke nødvendigvis alle forhandlere som har valgt å ta inn alle, er det noe du savner hos din forhandler, så spør gjerne din forhandler om de kan bestille denne til deg.</strong></p>
+    <!-- CONTENT GOES HERE ! -->
+    <div class="table-responsive">
+        <table id="productsTable" class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">&nbsp;</th>
+                    <th scope="col">Beskrivelse</th>
+                    <th scope="col">Gass (kg)</th>
+                    <th scope="col">Materiale</th>
+                    <th scope="col">Ventil</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for propanflaske in propanflasker %}
+                <tr>
+                    <td class="align-middle">
+                        {% if propanflaske.bilde_id %}
+                        <img src="{% static 'img/' %}{{ propanflaske.bilde_id }}.png" alt="{{ propanflaske.beskrivelse }}" class="product-image img-fluid" width="40">
+                        {% else %}
+                        <img src="{% static 'img/placeholder.png' %}" alt="Bilde ikke tilgjengelig" class="propanflaske-image img-fluid" width="40">
+                        {% endif %}
+                    </td>
+                    <td class="align-middle">
+                        <a href="{% url 'produkter:propanflaske_detail' NOBB_nykjop=propanflaske.NOBB_nykjop %}">{{ propanflaske.beskrivelse }}</a>
+                    </td>
+                    <td class="align-middle">{{ propanflaske.gassmengde }}</td>
+                    <td class="align-middle">{{ propanflaske.materiale }}</td>
+                    <td class="align-middle">{{ propanflaske.ventil }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
